@@ -1,3 +1,4 @@
-pool: Default
+pool: 
+  vmImage: 'windows-latest'
 steps:
 - bash: echo hello world
